@@ -1,0 +1,40 @@
+.imgs{
+    padding: 2rem;
+
+    width: 100%;
+}
+.imgs h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top:  5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.allImgs{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    
+
+}
+.imgGame{
+    width: 45%;
+    margin: 1rem;
+}
+.imgGame img{
+    width: 100%;
+    
+}
+
+
+@media (max-width: 600px)
+{
+    .imgGame{
+        width: 100%;
+        margin: .25rem 0;
+    }
+}

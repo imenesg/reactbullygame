@@ -1,0 +1,35 @@
+.especificacoes{
+    padding-left: 5rem ;
+}
+.especificacoes h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top:  5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.especificacoes td{
+     font-size: 1.5rem;
+    padding: .5rem ;
+}
+.rating{
+    display: flex;
+    align-items: center;
+}
+.especificacoes img{
+    width: 50px;
+}
+
+
+@media (max-width: 600px)
+{
+    table{
+        margin: 0;
+        width: 100%;
+    }
+    .especificacoes{
+        padding-left: 1rem ;
+        width: 100%;
+    }
+}

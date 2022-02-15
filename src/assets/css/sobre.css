@@ -1,0 +1,67 @@
+.sobre{
+    padding: 1.5rem;
+}
+.sobre h1{
+    font-size: 2rem;
+    font-weight: bold;
+
+    margin: 2rem 0 ;
+
+    padding-left: 5rem ;
+}
+
+.botaocompra{
+    margin-bottom: 5rem;
+    padding-left: 5rem ;
+}
+
+.sobre  .containerImg{
+    max-width: 450px;
+    margin:  0 auto;
+}
+.sobre  .containerImg img{
+    width: 100%;
+}
+.sobre h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top:  5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.sobre p{
+    max-width: 800px;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin: 0 auto;
+}
+
+
+.escondido{
+    display: none;
+}
+.aparecendo{
+    margin-top: 2rem !important;
+}
+
+.vermais{
+    display: inline-flex;
+   
+    margin-left: 5rem ;
+    
+}
+
+@media (max-width: 600px)
+{
+    .sobre h1{
+        padding-left: unset ;
+    }
+    .botaocompra{
+        padding-left: 1.5rem ; ;
+    }
+    .vermais{
+        display: inline-flex;
+        margin: 1rem 0;
+    }
+
+}

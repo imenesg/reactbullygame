@@ -1,0 +1,45 @@
+.trailer{
+    padding: 0 1rem;
+}
+.trailerContainer{
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #4b4b4bab;
+    border-radius: 10px;
+    background-color: var(--cor2);
+}
+.trailer h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top:  5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.containerIframe {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    border: 2px solid var(--cor3);
+    border-radius: 10px;
+  }
+  
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    
+  }
+
+  .trailer h3{
+      padding: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    
+}
